@@ -7,6 +7,8 @@ TagManager:
   - Floor
   - Enemy
   - Limit
+  - PowerUp
+  - Powerup
   layers:
   - Default
   - TransparentFX

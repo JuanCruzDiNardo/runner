@@ -10,10 +10,11 @@ public class Restart : MonoBehaviour
 
     private void GetInput()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R)) //checkeamos que se presione la tecla R
         {
-            Time.timeScale = 1;
-            SceneManager.LoadScene(0);
+            Parallax.gameOver = false;
+            Time.timeScale = 1; //reanudamos el tiempo del juego
+            SceneManager.LoadScene(0); //cargamos la escena inicial 
         }
     }
 }
